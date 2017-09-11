@@ -121,7 +121,7 @@ a {
     'border-bottom-color 0.35s ease-in-out'));
     outline: 0;
     &:hover {
-        color: #E27689;
+        color: #0f0;
         border-bottom-color: rgba(255, 255, 255, 0);
     }
 }
@@ -524,7 +524,7 @@ button,
                     box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
                     color: #fff;
                     span:before {
-                        color: #e27689;
+                        color: #0f0;
                     }
                 }
             }
