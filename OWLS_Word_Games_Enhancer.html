@@ -93,29 +93,21 @@
                 <div class="row">
                     <div class="span10 offset1">
                         <div id="fb-root"></div>
-                        <script>
-                            (function (d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0];
-                                if (d.getElementById(id))
-                                    return;
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=689165461608913";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));
-                        </script>
+                        <script async defer crossorigin="anonymous"
+                            src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0&appId=689165461608913&autoLogAppEvents=1"></script>
                         <div id="tabs">
                             <ul>
-                                <li>
-                                    <a href="#owlmain">
-                                        <span>Install/Share</span>
-                                    </a>
-                                </li>
                                 <li>
                                     <a href="#owlfaq">
                                         <span>FAQ</span>
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="#owlmain">
+                                        <span>Demo Video/Share</span>
+                                    </a>
+                                </li>
+
                                 <li>
                                     <a href="#owlwishlist">
                                         <span>Wishlist</span>
@@ -125,8 +117,9 @@
                             <div id="owlmain">
                                 <div class="fb-like"
                                     data-href="https://chrome.google.com/webstore/detail/owls-word-games-enhancer/pdpejcfahhppmalemodibekpbiopmogo"
-                                    data-send="true" data-width="450" data-show-faces="true"></div>
-                                <button id="installButton">Install the OWL!</button>
+                                    data-width="" data-layout="standard" data-action="like" data-size="small"
+                                    data-show-faces="true" data-share="true"></div>
+                                <!--<button id="installButton">Install the OWL!</button>-->
                                 <div id="videoHolder">
                                     <iframe width="420" height="315" src="//www.youtube.com/embed/ec4JY06WTV8?rel=0"
                                         frameborder="0" allowfullscreen></iframe>
@@ -337,7 +330,8 @@
     <script>
     </script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/owlextension.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/boot-business.js"></script>
