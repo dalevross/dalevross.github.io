@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dale Vivian Ross">
+    <meta name="author" content="Dale V. Ross">
+    <meta name="keywords"
+        content="software, programming, startup, kansas city, automation, php,dajen,dajen group, dajen eats">
+    <meta property="og:image" content="http://dalevross.github.io/images/owl_icon.png">
+    <meta property="fb:admins" content="593170373,100004217675678">
+    <meta property="og:title" content="Dale V. Ross">
+    <meta property="og:description" content="Dale Vivian Ross | Problem Solver">
+    <meta property="og:url" content="http://dalevross.github.io">
+    <meta property="og:type" content="website">
+    <title>Dale Vivian Ross | Problem Solver</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+    <!-- Jquery UI -->
+    <link type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/south-street/jquery-ui.min.css"
+        rel="stylesheet">
+    <!-- OWL Styling -->
+    <link type="text/css" href="css/owlextension.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start: HEADER -->
+    <header>
+        <!-- Start: Navigation wrapper -->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="/">
+                        <img style="width:80px;float:left" src="images/Dajen_Group_Logo_Square_100.png" />
+                    </a>
+                    <!-- Below button used for responsive navigation -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Start: Primary navigation -->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle  active-link" data-toggle="dropdown">Products
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-header">PRODUCTS</li>
+                                    <li>
+                                        <a href="OWLS_Word_Games_Enhancer.html" target="_blank">Owls Word Games
+                                            Enhancer</a>
+                                    </li>
+                                    <!--<li><a href="all_products.html">All products</a></li>-->
+                                </ul>
+                            </li>
+
+                            <!--<li><a href="faq.html">FAQ</a></li>-->
+                            <!--<li>
+                                <a href="contact_us.html">Contact us</a>
+                            </li>-->
+                            <li>
+                                <a href="http://dajencoderoom.blogspot.com">The Code Room</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: Navigation wrapper -->
+    </header>
+    <!-- End: HEADER -->
+    <!-- Start: MAIN CONTENT -->
+    <div class="content">
+        <div class="container">
+            <article class="article">
+                <div class="page-header">
+                    <h1>OWLS Word Games Enhancer
+                        <small></small>
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="span10 offset1">
+                        <div id="fb-root"></div>
+                        <script>
+                            (function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id))
+                                    return;
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=390735480949561";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));
+                        </script>
+                        <div id="tabs">
+                            <ul>
+                                <li>
+                                    <a href="#owlmain">
+                                        <span>Install/Share</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#owlfaq">
+                                        <span>FAQ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#owlwishlist">
+                                        <span>Wishlist</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="owlmain">
+                                <div class="fb-like"
+                                    data-href="https://chrome.google.com/webstore/detail/owls-word-games-enhancer/pdpejcfahhppmalemodibekpbiopmogo"
+                                    data-send="true" data-width="450" data-show-faces="true"></div>
+                                <button id="installButton">Install the OWL!</button>
+                                <div id="videoHolder">
+                                    <iframe width="420" height="315" src="//www.youtube.com/embed/ec4JY06WTV8?rel=0"
+                                        frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <script>
+                                    if (chrome.app.isInstalled) {
+                                        document.getElementById('installButton').style.display = 'none';
+                                    }
+                                </script>
+                                <div id="resultDialog"></div>
+
+                            </div>
+                            <div id="owlfaq">
+                                <div id="accordion">
+                                    <h3>My OWL vanished! What should I do?</h3>
+                                    <div>
+                                        <p>There are a few reasons why the owl might fly away.</p>
+                                        <ol>
+                                            <li>You are not currently viewing a game.
+                                                <br />
+                                                <i>&nbsp;&nbsp;The OWL is only activated when viewing Scrabble, Lexulous
+                                                    or Wordscraper
+                                                </i>
+                                            </li>
+                                            <li>The OWL was updated and no permissions were changed.
+                                                <br />
+                                                <i>&nbsp;&nbsp;To resolve, reload the game</i>
+                                            </li>
+                                            <li>The OWL was updated and permission were changed.
+                                                <br />
+                                                <i>&nbsp;&nbsp;To resolve, Either:</i>
+                                                <ol>
+                                                    <li>Review the state of the OWL in the
+                                                        <a href="chrome://extensions" target="_blank">Extensions
+                                                            List</a>
+                                                        and approve the necessary permissions. Enter chrome://extensions
+                                                        in your address bar to view the extensions list
+                                                        <br />
+                                                        <b>OR</b>
+                                                        <br />
+                                                    </li>
+
+                                                    <li>If your options bar turned orange follow the steps outlined in
+                                                        the image sequence below, then refresh your active games.
+                                                        <br />
+                                                        <table style="border-collapse:separate;border-spacing:10px;">
+                                                            <tr>
+                                                                <td>
+                                                                    <span>Click the options button</span>
+                                                                </td>
+                                                                <td>
+                                                                    <img src="images/options-orange.png"></img>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <span>Click
+                                                                        <i>OWLS Word Games Enhancer requires new
+                                                                            permissions</i>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <img src="images/new-menu-item.png"
+                                                                        class="helpImage"></img>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <span>Click
+                                                                        <i>Review permissions</i>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <img src="images/review-permissions.png"
+                                                                        class="helpImage"></img>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <span>Click
+                                                                        <i>Re-enable</i>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <img class="helpImage"
+                                                                        src="images/re-enable.png"></img>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </li>
+
+                                                </ol>
+                                            </li>
+                                        </ol>
+
+                                    </div>
+                                    <h3>How can I update my extension before it is automatically installed?
+                                    </h3>
+                                    <div>
+                                        <p>To update your extension after it has been published, use the following
+                                            steps.</p>
+                                        <ol>
+                                            <li>Click the three horizantal bars
+                                                <img class="helpImage" src="images/options-black.png"></img>
+                                            </li>
+                                            <li>Click Tools</li>
+                                            <li>Click Extensions</li>
+                                            <li>Select Developer Mode if it is not yet selected.</li>
+                                            <li>Click "Update extensions now".
+                                                <br />
+                                                <a href="images/update-all-extensions.png">
+                                                    <img src="images/update-all-extensions.png"
+                                                        style="max-width: 100%"></img>
+                                                </a>
+                                            </li>
+
+                                        </ol>
+                                    </div>
+                                    <h3>Why does the dictionary show a list of sites for some words with no definiton?
+                                    </h3>
+                                    <div>
+                                        <p>The dictionary look-up done by Google is sometimes unable to find a
+                                            definition for obscure words. When this happens, references to the word on
+                                            other websites will be the only results displayed.</p>
+                                    </div>
+                                    <h3>Why does the OWL require the permissions listed below?</h3>
+                                    <div>
+                                        <ol>
+                                            <li>Access to your data on aws.rjs.in
+                                                <br />
+                                                <p>
+                                                    <i>This is to allow retrieval of game data for Lexulous and
+                                                        Wordscraper
+                                                    </i>
+                                                </p>
+                                            </li>
+                                            <li>Access to your data on scrabblefb-live2.sn.eamobile.com
+                                                <br />
+                                                <p>
+                                                    <i>This is to allow retrieval of game data for Scrabble</i>
+                                                </p>
+                                            </li>
+                                            <li>Access to your data on moltengold.com
+                                                <br />
+                                                <p>
+                                                    <i>This facilitates integration with
+                                                        <a href="https://www.facebook.com/groups/scrabble.league/"
+                                                            target="_blank">The Facebook Scrabble League</a>
+                                                    </i>
+                                                </p>
+                                            <li>Access to your tabs and browsing data
+                                                <br />
+                                                <p>
+                                                    <i>This allows the OWL to know when to appear based on the URL in
+                                                        the current tab.</i>
+                                                </p>
+                                        </ol>
+                                    </div>
+                                    <h3>Can I use the owl on more than one computer?</h3>
+                                    <div>
+                                        <p>Yes, but your notes will only be saved on the computer where you wrote them.
+                                        </p>
+                                    </div>
+                                    <h3>Can I donate to the creators of this awesome tool</h3>
+                                    <div>
+                                        <p>
+                                            Sure! We do this for the love of the game and the writing software.
+                                            If you want to help us to build better tools by supporting the cause
+                                            however, please do! We'll still keep doing it regardless.
+
+                                        </p>
+                                        <br />
+                                        <div style="width:100px;text-align:center">
+                                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post"
+                                                target="_top">
+                                                <input type="hidden" name="cmd" value="_s-xclick" />
+                                                <input type="hidden" name="hosted_button_id" value="CR48Y9EBZ2ARW" />
+                                                <input type="image"
+                                                    src="https://dalevross.github.io/images/paypal-button.png"
+                                                    border="0" name="submit"
+                                                    title="PayPal - The safer, easier way to pay online!"
+                                                    alt="Donate with PayPal button" />
+                                                <img alt="" border="0"
+                                                    src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1"
+                                                    height="1" />
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="owlwishlist">
+                                <ol>
+                                    <li>Extraction of game data at the end of the game in gcg format for Quackle or
+                                        www.cross-tables.com</li>
+                                    <li>Moveable Tracker that can be dragged by the user</li>
+                                    <li>World Peace</li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <!-- End: MAIN CONTENT -->
+    <script>
+    </script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/owlextension.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+</body>
+
+</html>

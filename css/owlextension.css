@@ -1,0 +1,17 @@
+#tabs {
+    font-size: 12px;
+}
+div#owlmain {
+    height: 450px;
+}
+div#videoHolder {
+    padding-top: 15px;
+}
+#resultDialog {
+    font-size: 10px;
+    overflow: auto;
+}
+.helpImage {
+    display: inline;
+    vertical-align: middle;
+}
