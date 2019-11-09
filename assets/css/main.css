@@ -1579,6 +1579,15 @@ a {
     -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     outline: 0;
+    
+}
+
+a.faq {
+    text-decoration: underline;
+    color: blue;
+    outline: 0;
+    border-bottom: none;
+    
 }
 
 a:hover {
