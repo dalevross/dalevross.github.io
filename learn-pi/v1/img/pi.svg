@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="180"
+   height="185"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Symbol_pi.svg">
+  <title
+     id="title2986">Pi in a Circle</title>
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Pi in a Circle</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:date>2010-10-06</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Magister Mathematicae</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Public Domain</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Wikimedia Commons</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>https://upload.wikimedia.org/wikipedia/commons/1/14/Symbol_pi.svg</dc:identifier>
+        <dc:source>https://commons.wikimedia.org/wiki/File%3ASymbol_pi.svg</dc:source>
+        <dc:relation>https://commons.wikimedia.org/wiki/File:Symbol_oppose_vote.svg</dc:relation>
+        <dc:language>en-GB</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>pi</rdf:li>
+            <rdf:li>orange</rdf:li>
+            <rdf:li>circle</rdf:li>
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>maths</rdf:li>
+            <rdf:li>mathematics</rdf:li>
+            <rdf:li>round</rdf:li>
+            <rdf:li>shadow</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:coverage>Public Domain</dc:coverage>
+        <dc:description>The pi mathematics symbol slightly stylised in a orange circular border with a shadow. From Wikimedia Commons </dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Zscout370, Daniel S. Fowler</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="1027"
+     inkscape:window-width="1680"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="4.0756755"
+     inkscape:cx="60.466682"
+     inkscape:cy="92.5"
+     inkscape:window-x="1672"
+     inkscape:window-y="-8"
+     inkscape:current-layer="svg2"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4" />
+  <path
+     id="path1367"
+     style="fill:#00006f;fill-opacity:0.19607843;fill-rule:evenodd"
+     d="M 164.07127,82.212594 C 170.78505,130.12831 140.37851,174.02521 96.156376,180.25907 C 51.934221,186.49294 10.642501,152.70312 3.9287292,104.78742 C -2.7850408,56.871696 27.621491,12.974796 71.843631,6.740932 C 116.06577,0.50706203 157.3575,34.296886 164.07127,82.212594 z " />
+  <path
+     d="M 176.07132,80.212628 C 182.78511,128.12833 152.37858,172.02521 108.15643,178.25906 C 63.934276,184.49292 22.642531,150.7031 15.928736,102.7874 C 9.2149416,54.871706 39.621474,10.97482 83.843627,4.7409676 C 128.06578,-1.4928848 169.35753,32.296929 176.07132,80.212628 z "
+     style="fill:#ff6600;fill-opacity:1;fill-rule:nonzero;color:#000000;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path1306" />
+  <path
+     d="M 160.05717,82.470148 C 165.42821,120.8027 141.10299,155.9202 105.72528,160.90729 C 70.347559,165.89438 37.31418,138.86254 31.943147,100.52999 C 26.572114,62.197436 50.897328,27.079933 86.275044,22.092845 C 121.65276,17.105759 154.68614,44.137598 160.05717,82.470148 L 160.05717,82.470148 z "
+     style="fill:#fff2cd;fill-opacity:1;fill-rule:evenodd"
+     id="path1308" />
+  <g
+     transform="matrix(0.99267445,-0.12081983,0.12081983,0.99267445,0,0)"
+     style="font-size:150px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+     id="text2985">
+    <path
+       d="m 48.24189,86.753506 c 4.949995,-7.799992 7.500007,-9.45 14.7,-9.45 l 6.9,0 -3.9,33.300004 c -0.599999,4.19999 -2.550005,7.5 -7.65,12.15 -4.649995,4.19999 -6,6.6 -6,9.9 0,4.49999 3.600005,8.25 8.25,8.25 4.649995,0 8.250002,-3.45001 10.2,-9.9 1.349999,-3.9 3.450001,-19.20002 4.8,-34.350004 l 1.8,-19.35 16.35,0 c -1.799998,11.849989 -3.15,28.050014 -3.15,36.600004 0,16.79998 5.700009,27 14.85,27 5.84999,0 11.1,-4.05001 14.7,-11.1 2.1,-4.2 2.7,-7.05001 3.15,-14.55 l -3.6,0 c -0.75,7.19999 -3.6,10.95 -8.55,10.95 -3,0 -6.15,-2.10001 -7.8,-5.25 -1.35,-2.7 -1.8,-5.10001 -1.8,-10.05 0,-11.399992 0.75,-25.350012 1.8,-33.600004 l 18.9,0 0,-13.35 -52.5,0 c -8.099992,0 -10.950004,1.050005 -15.3,5.25 -4.199996,4.199996 -6.600003,8.550009 -9.15,17.55 l 3,0"
+       style=""
+       id="path3808" />
+  </g>
+</svg>
