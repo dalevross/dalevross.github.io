@@ -15,6 +15,15 @@ body{
 }
 ul{
     text-align: left;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+  
+}
+
+#sideline {
+    margin: 50px 0;
+    text-align: center;
+    align-self: center;
 }
 #img-div{
     background: white;
@@ -24,8 +33,18 @@ ul{
     max-width: 100%;
     display: block;
     margin:0 auto;
+    border-radius: 50%;
 }
 
 #tribute-info{
  display: flex;
+ flex-direction: column;
+ align-items: center;
 }
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
