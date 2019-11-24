@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    font-size:10px;
+    font-size: 1.6rem;
     color: #333;
 }
 #main {
@@ -11,6 +11,10 @@ body{
     margin: 0 auto;
     text-align: center;
     background: #eee;
+    border-radius: 10px;
+}
+ul{
+    text-align: left;
 }
 #img-div{
     background: white;
