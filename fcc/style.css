@@ -20,6 +20,10 @@ ul{
   
 }
 
+li {
+    margin: 15px 0;
+}
+
 #sideline {
     margin: 50px 0;
     text-align: center;
