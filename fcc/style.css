@@ -1,27 +1,44 @@
-html{
+:root {
+    --main-bg-color: #eee;
+ }
+
+html {
     font-size: 10px;
 }
 
-body{
+body {
     font-size: 1.6rem;
     color: #333;
+    font-family: "Lucida Console", Monaco, monospace;
 }
+
 #main {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background: #eee;
+    background: var(--main-bg-color);
     border-radius: 10px;
 }
-ul{
-    text-align: left;
+
+ul {
+    text-align: center;
     max-width: 600px;
     margin: 0 auto 40px auto;
-  
+
 }
 
 li {
-    margin: 15px 0;
+    margin: 15px 10px;
+    background: whitesmoke;
+    padding: 20px 0;
+    border-radius: 25%;
+    list-style-type: none;
+}
+
+li:before {
+    content: '\1F680';
+    margin-left: -20px;
+    margin-right: 10px;
 }
 
 #sideline {
@@ -29,21 +46,22 @@ li {
     text-align: center;
     align-self: center;
 }
-#img-div{
+
+#img-div {
     background: white;
 }
 
-#image{
+#image {
     max-width: 100%;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     border-radius: 50%;
 }
 
-#tribute-info{
- display: flex;
- flex-direction: column;
- align-items: center;
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 blockquote {
@@ -51,4 +69,4 @@ blockquote {
     max-width: 545px;
     margin: 0 auto 50px auto;
     text-align: left;
-  }
+}
