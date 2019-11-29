@@ -10,13 +10,63 @@
         <h1 id="title">Functional Programming Journey</h1>
         <p id="description">Help me choose which programming langauage to learn</p>
         <form id="survey-form" action="">
-            <input type="text" id="name" required>
-            <input type="email" id="email" required>
-            <input type="number" id="number" min=0 max=100 required>
+            <div><label id="name-label" for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter name" class="form-control" required></div>
+            <div>
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email" class="form-control" required></div>
+            <div><label id="number-label" for="number">Years programming functionally</label>
+                <input type="number" id="number" min=1 max=90 placeholder="Enter number of years">
+            </div>
+            <select name="" id="dropdown">
+                <option disabled selected value>Select current role</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <div class="form-group">
+                <p>Is learning functional programming necessary?</p>
+                <label>
+                    <input name="necessary" value="absolutely" type="radio" class="input-radio"
+                        checked />Absolutely</label>
+                <label>
+                    <input name="necessary" value="no" type="radio" class="input-radio" />Not at all</label>
+
+                <label><input name="necessary" value="unsure" type="radio" class="input-radio" />No idea, bud</label>
+            </div>
+            <div class="form-group">
+                <p>
+                    What functional language have you used?
+                    <span class="clue">(Check all that apply)</span>
+                </p>
+
+                <label><input name="language" value="haskell" type="checkbox" class="input-checkbox" />Haskell</label>
+                <label>
+                    <input name="language" value="clojure" type="checkbox" class="input-checkbox" />Clojure</label>
+                <label><input name="language" value="elixir" type="checkbox" class="input-checkbox" />Elixir</label>
+                <label><input name="language" value="elm" type="checkbox" class="input-checkbox" />Elm
+                </label>
+                <label><input name="language" value="fsharp" type="checkbox" class="input-checkbox" />F#
+                </label>
+                <label><input name="language" value="idris" type="checkbox" class="input-checkbox" />Idris</label>
+                <label><input name="language" value="scala" type="checkbox" class="input-checkbox" />Scala
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Any additional advice?</p>
+                <textarea id="advcice" class="input-textarea" name="advice"
+                    placeholder="Enter your advice here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+
+
 
         </form>
-        
-        
+
+
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
