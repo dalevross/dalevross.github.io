@@ -73,8 +73,8 @@ p {
   font-size: 1.14rem;
 }
 
-.title,
-.description {
+#title,
+#description {
   text-align: center;
 }
 h1,

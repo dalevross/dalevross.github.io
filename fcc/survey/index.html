@@ -2,28 +2,36 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>FCC: Tribute Page</title>
+    <title>FCC: Survey Form</title>
 </head>
 
 <body>
     <div id="main">
         <h1 id="title">Functional Programming Journey</h1>
-        <p id="description">Help me choose which programming langauage to learn</p>
+        <p id="description">Help me choose which functional programming langauage to learn</p>
         <form id="survey-form" action="">
-            <div><label id="name-label" for="name">Name</label>
+            <div class="form-group"><label id="name-label" for="name">Name</label>
                 <input type="text" id="name" placeholder="Enter name" class="form-control" required></div>
-            <div>
+            <div class="form-group">
                 <label id="email-label" for="email">Email</label>
                 <input type="email" id="email" placeholder="Enter email" class="form-control" required></div>
-            <div><label id="number-label" for="number">Years programming functionally</label>
-                <input type="number" id="number" min=1 max=90 placeholder="Enter number of years">
+            <div class="form-group"><label id="number-label" for="number">Years programming functionally</label>
+                <input type="number" id="number" min=1 max=90 class="form-control" placeholder="Enter number of years">
             </div>
-            <select name="" id="dropdown">
-                <option disabled selected value>Select current role</option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
             <div class="form-group">
+                <p>Which of the following is your favorite?</p>
+                <select name="favorite" class="form-control" id="dropdown">
+                    <option disabled selected value>Select favorite langauage</option>
+                    <option value="clojure">Clojure</option>
+                    <option value="elixir">Elixir</option>
+                    <option value="elm">Elm</option>
+                    <option value="fsharp">F#</option>
+                    <option value="haskell">Haskell</option>
+                    <option value="idris">Idris</option>
+                    <option value="scala">Scala</option> 
+                </select>
+            </div>
+            <div class=" form-group">
                 <p>Is learning functional programming necessary?</p>
                 <label>
                     <input name="necessary" value="absolutely" type="radio" class="input-radio"
@@ -31,22 +39,34 @@
                 <label>
                     <input name="necessary" value="no" type="radio" class="input-radio" />Not at all</label>
 
-                <label><input name="necessary" value="unsure" type="radio" class="input-radio" />No idea, bud</label>
+                <label><input name="necessary" value="unsure" type="radio" class="input-radio" />No idea,
+                    bud</label>
             </div>
+            <div class="form-group">
+                <p>
+                    What is your favorite feature of functional languages?
+                </p>
+                <select id="favorite-feature" name="favorite-feature" class="form-control" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="immutability">Immutability</option>
+                    <option value="firstclassfunctions">First Class Functions</option>
+                    <option value="purefunctions">Pure Functions</option>
+                    <option value="higher">Recursion</option>
+                </select>
+            </div>
+
             <div class="form-group">
                 <p>
                     What functional language have you used?
                     <span class="clue">(Check all that apply)</span>
                 </p>
-
-                <label><input name="language" value="haskell" type="checkbox" class="input-checkbox" />Haskell</label>
-                <label>
-                    <input name="language" value="clojure" type="checkbox" class="input-checkbox" />Clojure</label>
+                <input name="language" value="clojure" type="checkbox" class="input-checkbox" />Clojure</label>
                 <label><input name="language" value="elixir" type="checkbox" class="input-checkbox" />Elixir</label>
                 <label><input name="language" value="elm" type="checkbox" class="input-checkbox" />Elm
                 </label>
                 <label><input name="language" value="fsharp" type="checkbox" class="input-checkbox" />F#
                 </label>
+                <label><input name="language" value="haskell" type="checkbox" class="input-checkbox" />Haskell</label>
                 <label><input name="language" value="idris" type="checkbox" class="input-checkbox" />Idris</label>
                 <label><input name="language" value="scala" type="checkbox" class="input-checkbox" />Scala
                 </label>
@@ -54,7 +74,7 @@
             <div class="form-group">
                 <p>Any additional advice?</p>
                 <textarea id="advcice" class="input-textarea" name="advice"
-                    placeholder="Enter your advice here..."></textarea>
+                    placeholder="Enter your advice here. What did I miss?"></textarea>
             </div>
 
             <div class="form-group">
@@ -63,8 +83,9 @@
                 </button>
 
 
-
+            </div>
         </form>
+
 
 
     </div>
