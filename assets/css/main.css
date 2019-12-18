@@ -184,21 +184,82 @@ body {
     width: 1400px;
 }
 
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 16rem;
+    width: 11%;
+    margin-top: -3%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #000;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 961px) and (max-width: 1880px) {
     .container.\31 25\25 {
         width: 100%;
         max-width: 1500px;
         min-width: 1200px;
     }
+
     .container.\37 5\25 {
         width: 900px;
     }
+
     .container.\35 0\25 {
         width: 600px;
     }
+
     .container.\32 5\25 {
         width: 300px;
     }
+
     .container {
         width: 1200px;
     }
@@ -210,15 +271,19 @@ body {
         max-width: 1200px;
         min-width: 960px;
     }
+
     .container.\37 5\25 {
         width: 720px;
     }
+
     .container.\35 0\25 {
         width: 480px;
     }
+
     .container.\32 5\25 {
         width: 240px;
     }
+
     .container {
         width: 960px;
     }
@@ -230,15 +295,19 @@ body {
         max-width: 125%;
         min-width: 100%;
     }
+
     .container.\37 5\25 {
         width: 75%;
     }
+
     .container.\35 0\25 {
         width: 50%;
     }
+
     .container.\32 5\25 {
         width: 25%;
     }
+
     .container {
         width: 100%;
     }
@@ -250,15 +319,19 @@ body {
         max-width: 125%;
         min-width: 100%;
     }
+
     .container.\37 5\25 {
         width: 75%;
     }
+
     .container.\35 0\25 {
         width: 50%;
     }
+
     .container.\32 5\25 {
         width: 25%;
     }
+
     .container {
         width: 100%;
     }
@@ -270,15 +343,19 @@ body {
         max-width: 125%;
         min-width: 100%;
     }
+
     .container.\37 5\25 {
         width: 75%;
     }
+
     .container.\35 0\25 {
         width: 50%;
     }
+
     .container.\32 5\25 {
         width: 25%;
     }
+
     .container {
         width: 100% !important;
     }
@@ -560,135 +637,167 @@ body {
     .row>* {
         padding: 40px 0 0 40px;
     }
+
     .row {
         margin: -40px 0 -1px -40px;
     }
+
     .row.uniform>* {
         padding: 40px 0 0 40px;
     }
+
     .row.uniform {
         margin: -40px 0 -1px -40px;
     }
+
     .row.\32 00\25>* {
         padding: 80px 0 0 80px;
     }
+
     .row.\32 00\25 {
         margin: -80px 0 -1px -80px;
     }
+
     .row.uniform.\32 00\25>* {
         padding: 80px 0 0 80px;
     }
+
     .row.uniform.\32 00\25 {
         margin: -80px 0 -1px -80px;
     }
+
     .row.\31 50\25>* {
         padding: 60px 0 0 60px;
     }
+
     .row.\31 50\25 {
         margin: -60px 0 -1px -60px;
     }
+
     .row.uniform.\31 50\25>* {
         padding: 60px 0 0 60px;
     }
+
     .row.uniform.\31 50\25 {
         margin: -60px 0 -1px -60px;
     }
+
     .row.\35 0\25>* {
         padding: 20px 0 0 20px;
     }
+
     .row.\35 0\25 {
         margin: -20px 0 -1px -20px;
     }
+
     .row.uniform.\35 0\25>* {
         padding: 20px 0 0 20px;
     }
+
     .row.uniform.\35 0\25 {
         margin: -20px 0 -1px -20px;
     }
+
     .row.\32 5\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.\32 5\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.uniform.\32 5\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.uniform.\32 5\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .\31 2u\28wide\29,
     .\31 2u\24\28wide\29 {
         width: 100%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 1u\28wide\29,
     .\31 1u\24\28wide\29 {
         width: 91.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 0u\28wide\29,
     .\31 0u\24\28wide\29 {
         width: 83.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\39 u\28wide\29,
     .\39 u\24\28wide\29 {
         width: 75%;
         clear: none;
         margin-left: 0;
     }
+
     .\38 u\28wide\29,
     .\38 u\24\28wide\29 {
         width: 66.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\37 u\28wide\29,
     .\37 u\24\28wide\29 {
         width: 58.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\36 u\28wide\29,
     .\36 u\24\28wide\29 {
         width: 50%;
         clear: none;
         margin-left: 0;
     }
+
     .\35 u\28wide\29,
     .\35 u\24\28wide\29 {
         width: 41.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\34 u\28wide\29,
     .\34 u\24\28wide\29 {
         width: 33.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\33 u\28wide\29,
     .\33 u\24\28wide\29 {
         width: 25%;
         clear: none;
         margin-left: 0;
     }
+
     .\32 u\28wide\29,
     .\32 u\24\28wide\29 {
         width: 16.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 u\28wide\29,
     .\31 u\24\28wide\29 {
         width: 8.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 2u\24\28wide\29+*,
     .\31 1u\24\28wide\29+*,
     .\31 0u\24\28wide\29+*,
@@ -703,36 +812,47 @@ body {
     .\31 u\24\28wide\29+* {
         clear: left;
     }
+
     .\-11u\28wide\29 {
         margin-left: 91.66667%;
     }
+
     .\-10u\28wide\29 {
         margin-left: 83.33333%;
     }
+
     .\-9u\28wide\29 {
         margin-left: 75%;
     }
+
     .\-8u\28wide\29 {
         margin-left: 66.66667%;
     }
+
     .\-7u\28wide\29 {
         margin-left: 58.33333%;
     }
+
     .\-6u\28wide\29 {
         margin-left: 50%;
     }
+
     .\-5u\28wide\29 {
         margin-left: 41.66667%;
     }
+
     .\-4u\28wide\29 {
         margin-left: 33.33333%;
     }
+
     .\-3u\28wide\29 {
         margin-left: 25%;
     }
+
     .\-2u\28wide\29 {
         margin-left: 16.66667%;
     }
+
     .\-1u\28wide\29 {
         margin-left: 8.33333%;
     }
@@ -742,135 +862,167 @@ body {
     .row>* {
         padding: 40px 0 0 40px;
     }
+
     .row {
         margin: -40px 0 -1px -40px;
     }
+
     .row.uniform>* {
         padding: 40px 0 0 40px;
     }
+
     .row.uniform {
         margin: -40px 0 -1px -40px;
     }
+
     .row.\32 00\25>* {
         padding: 80px 0 0 80px;
     }
+
     .row.\32 00\25 {
         margin: -80px 0 -1px -80px;
     }
+
     .row.uniform.\32 00\25>* {
         padding: 80px 0 0 80px;
     }
+
     .row.uniform.\32 00\25 {
         margin: -80px 0 -1px -80px;
     }
+
     .row.\31 50\25>* {
         padding: 60px 0 0 60px;
     }
+
     .row.\31 50\25 {
         margin: -60px 0 -1px -60px;
     }
+
     .row.uniform.\31 50\25>* {
         padding: 60px 0 0 60px;
     }
+
     .row.uniform.\31 50\25 {
         margin: -60px 0 -1px -60px;
     }
+
     .row.\35 0\25>* {
         padding: 20px 0 0 20px;
     }
+
     .row.\35 0\25 {
         margin: -20px 0 -1px -20px;
     }
+
     .row.uniform.\35 0\25>* {
         padding: 20px 0 0 20px;
     }
+
     .row.uniform.\35 0\25 {
         margin: -20px 0 -1px -20px;
     }
+
     .row.\32 5\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.\32 5\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.uniform.\32 5\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.uniform.\32 5\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .\31 2u\28normal\29,
     .\31 2u\24\28normal\29 {
         width: 100%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 1u\28normal\29,
     .\31 1u\24\28normal\29 {
         width: 91.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 0u\28normal\29,
     .\31 0u\24\28normal\29 {
         width: 83.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\39 u\28normal\29,
     .\39 u\24\28normal\29 {
         width: 75%;
         clear: none;
         margin-left: 0;
     }
+
     .\38 u\28normal\29,
     .\38 u\24\28normal\29 {
         width: 66.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\37 u\28normal\29,
     .\37 u\24\28normal\29 {
         width: 58.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\36 u\28normal\29,
     .\36 u\24\28normal\29 {
         width: 50%;
         clear: none;
         margin-left: 0;
     }
+
     .\35 u\28normal\29,
     .\35 u\24\28normal\29 {
         width: 41.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\34 u\28normal\29,
     .\34 u\24\28normal\29 {
         width: 33.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\33 u\28normal\29,
     .\33 u\24\28normal\29 {
         width: 25%;
         clear: none;
         margin-left: 0;
     }
+
     .\32 u\28normal\29,
     .\32 u\24\28normal\29 {
         width: 16.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 u\28normal\29,
     .\31 u\24\28normal\29 {
         width: 8.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 2u\24\28normal\29+*,
     .\31 1u\24\28normal\29+*,
     .\31 0u\24\28normal\29+*,
@@ -885,36 +1037,47 @@ body {
     .\31 u\24\28normal\29+* {
         clear: left;
     }
+
     .\-11u\28normal\29 {
         margin-left: 91.66667%;
     }
+
     .\-10u\28normal\29 {
         margin-left: 83.33333%;
     }
+
     .\-9u\28normal\29 {
         margin-left: 75%;
     }
+
     .\-8u\28normal\29 {
         margin-left: 66.66667%;
     }
+
     .\-7u\28normal\29 {
         margin-left: 58.33333%;
     }
+
     .\-6u\28normal\29 {
         margin-left: 50%;
     }
+
     .\-5u\28normal\29 {
         margin-left: 41.66667%;
     }
+
     .\-4u\28normal\29 {
         margin-left: 33.33333%;
     }
+
     .\-3u\28normal\29 {
         margin-left: 25%;
     }
+
     .\-2u\28normal\29 {
         margin-left: 16.66667%;
     }
+
     .\-1u\28normal\29 {
         margin-left: 8.33333%;
     }
@@ -924,135 +1087,167 @@ body {
     .row>* {
         padding: 20px 0 0 20px;
     }
+
     .row {
         margin: -20px 0 -1px -20px;
     }
+
     .row.uniform>* {
         padding: 20px 0 0 20px;
     }
+
     .row.uniform {
         margin: -20px 0 -1px -20px;
     }
+
     .row.\32 00\25>* {
         padding: 40px 0 0 40px;
     }
+
     .row.\32 00\25 {
         margin: -40px 0 -1px -40px;
     }
+
     .row.uniform.\32 00\25>* {
         padding: 40px 0 0 40px;
     }
+
     .row.uniform.\32 00\25 {
         margin: -40px 0 -1px -40px;
     }
+
     .row.\31 50\25>* {
         padding: 30px 0 0 30px;
     }
+
     .row.\31 50\25 {
         margin: -30px 0 -1px -30px;
     }
+
     .row.uniform.\31 50\25>* {
         padding: 30px 0 0 30px;
     }
+
     .row.uniform.\31 50\25 {
         margin: -30px 0 -1px -30px;
     }
+
     .row.\35 0\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.\35 0\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.uniform.\35 0\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.uniform.\35 0\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.\32 5\25>* {
         padding: 5px 0 0 5px;
     }
+
     .row.\32 5\25 {
         margin: -5px 0 -1px -5px;
     }
+
     .row.uniform.\32 5\25>* {
         padding: 5px 0 0 5px;
     }
+
     .row.uniform.\32 5\25 {
         margin: -5px 0 -1px -5px;
     }
+
     .\31 2u\28narrow\29,
     .\31 2u\24\28narrow\29 {
         width: 100%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 1u\28narrow\29,
     .\31 1u\24\28narrow\29 {
         width: 91.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 0u\28narrow\29,
     .\31 0u\24\28narrow\29 {
         width: 83.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\39 u\28narrow\29,
     .\39 u\24\28narrow\29 {
         width: 75%;
         clear: none;
         margin-left: 0;
     }
+
     .\38 u\28narrow\29,
     .\38 u\24\28narrow\29 {
         width: 66.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\37 u\28narrow\29,
     .\37 u\24\28narrow\29 {
         width: 58.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\36 u\28narrow\29,
     .\36 u\24\28narrow\29 {
         width: 50%;
         clear: none;
         margin-left: 0;
     }
+
     .\35 u\28narrow\29,
     .\35 u\24\28narrow\29 {
         width: 41.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\34 u\28narrow\29,
     .\34 u\24\28narrow\29 {
         width: 33.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\33 u\28narrow\29,
     .\33 u\24\28narrow\29 {
         width: 25%;
         clear: none;
         margin-left: 0;
     }
+
     .\32 u\28narrow\29,
     .\32 u\24\28narrow\29 {
         width: 16.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 u\28narrow\29,
     .\31 u\24\28narrow\29 {
         width: 8.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 2u\24\28narrow\29+*,
     .\31 1u\24\28narrow\29+*,
     .\31 0u\24\28narrow\29+*,
@@ -1067,36 +1262,47 @@ body {
     .\31 u\24\28narrow\29+* {
         clear: left;
     }
+
     .\-11u\28narrow\29 {
         margin-left: 91.66667%;
     }
+
     .\-10u\28narrow\29 {
         margin-left: 83.33333%;
     }
+
     .\-9u\28narrow\29 {
         margin-left: 75%;
     }
+
     .\-8u\28narrow\29 {
         margin-left: 66.66667%;
     }
+
     .\-7u\28narrow\29 {
         margin-left: 58.33333%;
     }
+
     .\-6u\28narrow\29 {
         margin-left: 50%;
     }
+
     .\-5u\28narrow\29 {
         margin-left: 41.66667%;
     }
+
     .\-4u\28narrow\29 {
         margin-left: 33.33333%;
     }
+
     .\-3u\28narrow\29 {
         margin-left: 25%;
     }
+
     .\-2u\28narrow\29 {
         margin-left: 16.66667%;
     }
+
     .\-1u\28narrow\29 {
         margin-left: 8.33333%;
     }
@@ -1106,135 +1312,167 @@ body {
     .row>* {
         padding: 20px 0 0 20px;
     }
+
     .row {
         margin: -20px 0 -1px -20px;
     }
+
     .row.uniform>* {
         padding: 20px 0 0 20px;
     }
+
     .row.uniform {
         margin: -20px 0 -1px -20px;
     }
+
     .row.\32 00\25>* {
         padding: 40px 0 0 40px;
     }
+
     .row.\32 00\25 {
         margin: -40px 0 -1px -40px;
     }
+
     .row.uniform.\32 00\25>* {
         padding: 40px 0 0 40px;
     }
+
     .row.uniform.\32 00\25 {
         margin: -40px 0 -1px -40px;
     }
+
     .row.\31 50\25>* {
         padding: 30px 0 0 30px;
     }
+
     .row.\31 50\25 {
         margin: -30px 0 -1px -30px;
     }
+
     .row.uniform.\31 50\25>* {
         padding: 30px 0 0 30px;
     }
+
     .row.uniform.\31 50\25 {
         margin: -30px 0 -1px -30px;
     }
+
     .row.\35 0\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.\35 0\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.uniform.\35 0\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.uniform.\35 0\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.\32 5\25>* {
         padding: 5px 0 0 5px;
     }
+
     .row.\32 5\25 {
         margin: -5px 0 -1px -5px;
     }
+
     .row.uniform.\32 5\25>* {
         padding: 5px 0 0 5px;
     }
+
     .row.uniform.\32 5\25 {
         margin: -5px 0 -1px -5px;
     }
+
     .\31 2u\28narrower\29,
     .\31 2u\24\28narrower\29 {
         width: 100%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 1u\28narrower\29,
     .\31 1u\24\28narrower\29 {
         width: 91.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 0u\28narrower\29,
     .\31 0u\24\28narrower\29 {
         width: 83.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\39 u\28narrower\29,
     .\39 u\24\28narrower\29 {
         width: 75%;
         clear: none;
         margin-left: 0;
     }
+
     .\38 u\28narrower\29,
     .\38 u\24\28narrower\29 {
         width: 66.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\37 u\28narrower\29,
     .\37 u\24\28narrower\29 {
         width: 58.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\36 u\28narrower\29,
     .\36 u\24\28narrower\29 {
         width: 50%;
         clear: none;
         margin-left: 0;
     }
+
     .\35 u\28narrower\29,
     .\35 u\24\28narrower\29 {
         width: 41.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\34 u\28narrower\29,
     .\34 u\24\28narrower\29 {
         width: 33.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\33 u\28narrower\29,
     .\33 u\24\28narrower\29 {
         width: 25%;
         clear: none;
         margin-left: 0;
     }
+
     .\32 u\28narrower\29,
     .\32 u\24\28narrower\29 {
         width: 16.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 u\28narrower\29,
     .\31 u\24\28narrower\29 {
         width: 8.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 2u\24\28narrower\29+*,
     .\31 1u\24\28narrower\29+*,
     .\31 0u\24\28narrower\29+*,
@@ -1249,36 +1487,47 @@ body {
     .\31 u\24\28narrower\29+* {
         clear: left;
     }
+
     .\-11u\28narrower\29 {
         margin-left: 91.66667%;
     }
+
     .\-10u\28narrower\29 {
         margin-left: 83.33333%;
     }
+
     .\-9u\28narrower\29 {
         margin-left: 75%;
     }
+
     .\-8u\28narrower\29 {
         margin-left: 66.66667%;
     }
+
     .\-7u\28narrower\29 {
         margin-left: 58.33333%;
     }
+
     .\-6u\28narrower\29 {
         margin-left: 50%;
     }
+
     .\-5u\28narrower\29 {
         margin-left: 41.66667%;
     }
+
     .\-4u\28narrower\29 {
         margin-left: 33.33333%;
     }
+
     .\-3u\28narrower\29 {
         margin-left: 25%;
     }
+
     .\-2u\28narrower\29 {
         margin-left: 16.66667%;
     }
+
     .\-1u\28narrower\29 {
         margin-left: 8.33333%;
     }
@@ -1288,135 +1537,167 @@ body {
     .row>* {
         padding: 20px 0 0 20px;
     }
+
     .row {
         margin: -20px 0 -1px -20px;
     }
+
     .row.uniform>* {
         padding: 20px 0 0 20px;
     }
+
     .row.uniform {
         margin: -20px 0 -1px -20px;
     }
+
     .row.\32 00\25>* {
         padding: 40px 0 0 40px;
     }
+
     .row.\32 00\25 {
         margin: -40px 0 -1px -40px;
     }
+
     .row.uniform.\32 00\25>* {
         padding: 40px 0 0 40px;
     }
+
     .row.uniform.\32 00\25 {
         margin: -40px 0 -1px -40px;
     }
+
     .row.\31 50\25>* {
         padding: 30px 0 0 30px;
     }
+
     .row.\31 50\25 {
         margin: -30px 0 -1px -30px;
     }
+
     .row.uniform.\31 50\25>* {
         padding: 30px 0 0 30px;
     }
+
     .row.uniform.\31 50\25 {
         margin: -30px 0 -1px -30px;
     }
+
     .row.\35 0\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.\35 0\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.uniform.\35 0\25>* {
         padding: 10px 0 0 10px;
     }
+
     .row.uniform.\35 0\25 {
         margin: -10px 0 -1px -10px;
     }
+
     .row.\32 5\25>* {
         padding: 5px 0 0 5px;
     }
+
     .row.\32 5\25 {
         margin: -5px 0 -1px -5px;
     }
+
     .row.uniform.\32 5\25>* {
         padding: 5px 0 0 5px;
     }
+
     .row.uniform.\32 5\25 {
         margin: -5px 0 -1px -5px;
     }
+
     .\31 2u\28mobile\29,
     .\31 2u\24\28mobile\29 {
         width: 100%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 1u\28mobile\29,
     .\31 1u\24\28mobile\29 {
         width: 91.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 0u\28mobile\29,
     .\31 0u\24\28mobile\29 {
         width: 83.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\39 u\28mobile\29,
     .\39 u\24\28mobile\29 {
         width: 75%;
         clear: none;
         margin-left: 0;
     }
+
     .\38 u\28mobile\29,
     .\38 u\24\28mobile\29 {
         width: 66.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\37 u\28mobile\29,
     .\37 u\24\28mobile\29 {
         width: 58.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\36 u\28mobile\29,
     .\36 u\24\28mobile\29 {
         width: 50%;
         clear: none;
         margin-left: 0;
     }
+
     .\35 u\28mobile\29,
     .\35 u\24\28mobile\29 {
         width: 41.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\34 u\28mobile\29,
     .\34 u\24\28mobile\29 {
         width: 33.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\33 u\28mobile\29,
     .\33 u\24\28mobile\29 {
         width: 25%;
         clear: none;
         margin-left: 0;
     }
+
     .\32 u\28mobile\29,
     .\32 u\24\28mobile\29 {
         width: 16.6666666667%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 u\28mobile\29,
     .\31 u\24\28mobile\29 {
         width: 8.3333333333%;
         clear: none;
         margin-left: 0;
     }
+
     .\31 2u\24\28mobile\29+*,
     .\31 1u\24\28mobile\29+*,
     .\31 0u\24\28mobile\29+*,
@@ -1431,36 +1712,47 @@ body {
     .\31 u\24\28mobile\29+* {
         clear: left;
     }
+
     .\-11u\28mobile\29 {
         margin-left: 91.66667%;
     }
+
     .\-10u\28mobile\29 {
         margin-left: 83.33333%;
     }
+
     .\-9u\28mobile\29 {
         margin-left: 75%;
     }
+
     .\-8u\28mobile\29 {
         margin-left: 66.66667%;
     }
+
     .\-7u\28mobile\29 {
         margin-left: 58.33333%;
     }
+
     .\-6u\28mobile\29 {
         margin-left: 50%;
     }
+
     .\-5u\28mobile\29 {
         margin-left: 41.66667%;
     }
+
     .\-4u\28mobile\29 {
         margin-left: 33.33333%;
     }
+
     .\-3u\28mobile\29 {
         margin-left: 25%;
     }
+
     .\-2u\28mobile\29 {
         margin-left: 16.66667%;
     }
+
     .\-1u\28mobile\29 {
         margin-left: 8.33333%;
     }
@@ -1578,7 +1870,7 @@ a {
     -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     outline: 0;
-    
+
 }
 
 a.faq {
@@ -1586,7 +1878,7 @@ a.faq {
     color: blue;
     outline: 0;
     border-bottom: none;
-    
+
 }
 
 a:hover {
@@ -2047,6 +2339,14 @@ button:active,
     transition: none;
 }
 
+section#top header {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15%;
+    padding: 5%;
+
+}
+
 #nav ul li a span {
     position: relative;
     display: block;
@@ -2070,6 +2370,14 @@ button:active,
 
 #nav ul li a.active span:before {
     color: #0f0;
+}
+
+#nav ul li a#blog-link span:before {
+    color: #b3ebb3;
+}
+
+#nav ul li a#learn-pi span:before {
+    color: #b3ebb3;
 }
 
 
@@ -2155,9 +2463,9 @@ button:active,
 #main>section.one {
     background-color: rgb(129, 145, 142);
     background-image: linear-gradient(115deg,
-    rgba(58, 158, 58, 0.8),
-    rgba(136, 206, 136, 0.7)),
-    url(https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg);
+            rgba(58, 158, 58, 0.5),
+            rgba(136, 206, 136, 0.4)),
+        url(https://upload.wikimedia.org/wikipedia/commons/0/0d/C_Sharp_wordmark.svg);
 }
 
 #main>section.two {
@@ -2176,6 +2484,7 @@ button:active,
 /* Wide */
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
+
     /* Basic */
     body,
     input,
@@ -2183,14 +2492,17 @@ button:active,
     select {
         font-size: 17pt;
     }
+
     /* Header */
     #header {
         width: 300px;
     }
+
     /* Footer */
     #footer {
         margin-left: 300px;
     }
+
     /* Main */
     #main {
         margin-left: 300px;
@@ -2201,10 +2513,12 @@ button:active,
 /* Normal */
 
 @media screen and (min-width: 961px) and (max-width: 1620px) {
+
     /* Main */
     #main>section {
         padding: 3em 0;
     }
+
     #main section.cover {
         padding: 5em 0;
     }
@@ -2214,6 +2528,7 @@ button:active,
 /* Narrow */
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {
+
     /* Basic */
     body,
     input,
@@ -2221,42 +2536,52 @@ button:active,
     select {
         font-size: 16pt;
     }
+
     .container {
         padding: 0 2em 0 2em;
     }
+
     /* List */
     ul.icons li a {
         width: 1.75em;
     }
+
     /* Item */
     .item {
         margin-bottom: 20px;
     }
+
     /* Header */
     #header {
         width: 20%;
     }
+
     #logo .image {
         position: relative;
         margin: 0 0 0.5em 0;
     }
+
     #nav ul li a {
         font-size: 0.8em;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
+
     #nav ul li a span {
         padding-right: 2.25em;
     }
+
     #nav ul li a span:before {
         left: 100%;
         margin-left: -1.25em;
         line-height: 2.25em;
     }
+
     /* Footer */
     #footer {
         margin-left: 20%;
     }
+
     /* Main */
     #main {
         margin-left: 20%;
@@ -2271,32 +2596,39 @@ button:active,
 }
 
 @media screen and (max-width: 960px) {
+
     /* Basic */
     html,
     body {
         overflow-x: hidden;
     }
+
     body,
     input,
     textarea,
     select {
         font-size: 16pt;
     }
+
     header br {
         display: none;
     }
+
     .container {
         padding: 0 2em 0 2em;
     }
+
     /* Item */
     .item {
         margin-bottom: 15px;
     }
+
     /* List */
     ul.icons a {
         width: 1.75em;
         font-size: 1.25em;
     }
+
     /* Header */
     #header {
         -moz-backface-visibility: hidden;
@@ -2324,9 +2656,11 @@ button:active,
         background: #222729 url("images/overlay.png");
         box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
     }
+
     #header .top {
         position: relative;
     }
+
     #header .bottom {
         border-top: solid 1px rgba(255, 255, 255, 0.05);
         box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.15);
@@ -2334,12 +2668,15 @@ button:active,
         margin-top: 2em;
         position: relative;
     }
+
     #logo {
         margin: 1.5em 1.25em 1.25em 1.25em;
     }
+
     #nav ul li a {
         padding: 0.5em 1.25em 0.5em 1.25em;
     }
+
     #headerToggle {
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
@@ -2357,6 +2694,7 @@ button:active,
         width: 3.25em;
         z-index: 10001;
     }
+
     #headerToggle .toggle {
         position: absolute;
         left: 0;
@@ -2366,6 +2704,7 @@ button:active,
         outline: 0;
         border: 0;
     }
+
     #headerToggle .toggle:before {
         font-family: FontAwesome;
         text-decoration: none;
@@ -2388,28 +2727,33 @@ button:active,
         height: 2.25em;
         line-height: 2.25em;
     }
+
     body.header-visible #main {
         -moz-transform: translateX(275px);
         -webkit-transform: translateX(275px);
         -ms-transform: translateX(275px);
         transform: translateX(275px);
     }
+
     body.header-visible #headerToggle {
         -moz-transform: translateX(275px);
         -webkit-transform: translateX(275px);
         -ms-transform: translateX(275px);
         transform: translateX(275px);
     }
+
     body.header-visible #header {
         -moz-transform: translateX(0);
         -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
+
     /* Footer */
     #footer {
         margin-left: 0;
     }
+
     /* Main */
     #main {
         -moz-backface-visibility: hidden;
@@ -2423,9 +2767,11 @@ button:active,
         padding-bottom: 1px;
         margin-left: 0;
     }
+
     #main>section {
         padding: 3em 0;
     }
+
     #main section.cover {
         padding: 4em 0;
     }
@@ -2435,6 +2781,7 @@ button:active,
 /* Mobile */
 
 @media screen and (max-width: 736px) {
+
     /* Basic */
     body,
     input,
@@ -2442,29 +2789,36 @@ button:active,
     select {
         font-size: 14pt;
     }
+
     h2 {
         font-size: 1.5em;
         letter-spacing: 0;
         font-weight: 300;
     }
+
     .container {
         padding: 0 15px 0 15px;
     }
+
     /* List */
     ul.icons a {
         width: 2em;
         font-size: 1.25em;
     }
+
     /* Main */
     #main>section {
         padding: 2em 0;
     }
+
     #main section.cover {
         padding: 4em 0em;
     }
+
     #main section.cover header {
         padding: 0 1em;
     }
+
     /* Footer */
     #footer .copyright li {
         display: block;
@@ -2473,6 +2827,7 @@ button:active,
         padding: 0;
         margin: 1em 0 0 0;
     }
+
     #footer .copyright li:first-child {
         margin-top: 0;
     }

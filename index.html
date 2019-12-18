@@ -50,7 +50,7 @@
                         <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span
                                     class="icon fa-home">Intro</span></a></li>
                         <li><a href="https://blog.dalevross.com" id="blog-link" target="_blank"><span
-                                    class="icon fa-blogger active">Blog</span></a></li>
+                                    class="icon fa-blogger">Blog</span></a></li>
                         <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span
                                     class="icon fa-th">Portfolio</span></a></li>
                         <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span
@@ -58,6 +58,8 @@
                                     Me</span></a></li>
                         <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span
                                     class="icon fa-envelope">Contact</span></a></li>
+                        <li><a href="/learn-pi/v1/" id="learn-pi" target="_blank"><span class="icon fa-circle">Learn
+                                    Pi</span></a></li>
                     </ul>
                 </nav>
 
@@ -75,8 +77,9 @@
                                 class="label">Github</span></a></li>
                     <li><a href="https://www.instagram.com/dalevross" class="icon fa-instagram"><span
                                 class="label">Instagram</span></a></li>
-                    <li><a href="mailto://dvross@rosssquared.org" class="icon fa-envelope"><span
+                    <li><a href="mailto://dalevross@gmail.com" class="icon fa-envelope"><span
                                 class="label">Email</span></a></li>
+                    <li><a rel="me" href="https://toot.cafe/@dalevross">toot.cafe</a></li>
                 </ul>
 
             </div>
@@ -96,7 +99,12 @@
                         <p>I'm currently defragmenting my existence, refactoring my behaviours and getting everything
                             back in order.
                             I've been coding professionally since 2005, and wrote my first line
-                            of code in September 2002, at UWI, Mona </p>
+                            of code in September 2002, at UWI, Mona<br />
+                            I also have something of an obsession with pi and have hosted
+                            a version of <a rel="author" href="https://cassidoo.co/">Cassidy William's </a> <a
+                                href="/learn-pi/v1">Learn Pi</a> app that I hope to extend at some point.
+
+                        </p>
                     </header>
 
                     <footer>
@@ -207,74 +215,33 @@
             <section id="contact" class="four">
                 <div class="container contact-form">
                     <div class="contact-image">
-                        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+                        <img src="images/email.svg" alt="email_contact" />
                     </div>
-                    <form method="post">
-                        <h3>Drop Us a Message</h3>
+                    <form method="post" action="https://formspree.io/mledqyge">
+                        <h2>Drop Me a Message</h2>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="6u">
                                 <div class="form-group">
-                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *"
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name *"
                                         value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *"
+                                    <input type="text" name="_replyto" class="form-control" placeholder="Your Email *"
                                         value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="txtPhone" class="form-control"
-                                        placeholder="Your Phone Number *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                                    <input type="submit" name="submit" class="btnContact" value="Send Message" />
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="6u">
                                 <div class="form-group">
-                                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                                    <textarea name="message" class="form-control" placeholder="Keep Rocking, Dale."
                                         style="width: 100%; height: 150px;"></textarea>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
-                <!--
-                <div class="container">
-
-                    <header>
-                        <h2>Contact</h2>
-                    </header>
-
-                    <form method="POST" action="https://formspree.io/mledqyge">
-
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="pwd">Password:</label>
-                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
-                                name="pwd">
-                        </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" name="remember"> Remember me</label>
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                        <div class="row">
-                            <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Your name">
-                            </div>
-                            <div class="col-6 col-12-mobile"><input type="email" name="_replyto"
-                                    placeholder="Your email"></div>
-                            <div class="col-12">
-                                <textarea name="message" placeholder="Keep Rocking, Dale"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <input type="submit" value="Send Message">
-                            </div>
-                        </div>
-                    </form>
-
-                </div>-->
             </section>
 
         </div>
