@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dalevross
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dalevross.com
+  * I am dalevross (https://keybase.io/dalevross) on keybase.
+  * I have a public key ASD8c4FzUw2v-huktjFtc2_yoz4jm55xvVa9iNbTsp0S6Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120943c5ce73456813c435c88c3826fdb05dc0102f1b0c1919c9748bb1fea4632b50a",
+      "host": "keybase.io",
+      "kid": "0120fc738173530daffa1ba4b6316d736ff2a33e239b9e71bd56bd88d6d3b29d12e80a",
+      "uid": "dd8a73e98b7ed1bea25ef23df246a019",
+      "username": "dalevross"
+    },
+    "merkle_root": {
+      "ctime": 1576770938,
+      "hash": "e97b7a6baefcd7c69028a7c4f5c6a019968827f2f0daa026ddafaafde2bc91805de9a80591c3caea25701222b9c7c063b364efddd0583dc404692b60a0270764",
+      "hash_meta": "146dbc4e7c76947af9b0a03e3da28d0ddaa1a54f7eca3175b3961dc967c88513",
+      "seqno": 13815109
+    },
+    "service": {
+      "entropy": "uBkiyQCF8sS1Q+LjBq+ERwL7",
+      "hostname": "dalevross.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1576770949,
+  "expire_in": 504576000,
+  "prev": "44582e6fadc573581a7857c7753b4772e6e142121b335093ecba466994c95884",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/HOBc1MNr/obpLYxbXNv8qM+I5uecb1WvYjW07KdEugKp3BheWxvYWTESpcCGMQgRFgub63Fc1gaeFfHdTtHcubhQhIbM1CT7LpGaZTJWITEIO5u23JK1MBnGN96BDvgdTBsMv29CI8dia0tOXBaZBhXAgHCo3NpZ8RATa4duyxSrTqXVfWL9sP14FbC7P8F1KnFiAOt63JzplihkSC3tG9vDLnPdirBgzrzKBw3eQnRDAE4qKzEUwk8CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPjNOqZtyofDJwPcOTjZh1c0f/KTvyaaHb8f3jZE7OU/o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dalevross
+
+==================================================================
