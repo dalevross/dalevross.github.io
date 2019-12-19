@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dalevross.com
+Token: ba45d63579e37923d54ae4b27796f8d3f285560d398a302126df955fd2ff1d10
